@@ -1,0 +1,49 @@
+/* Custom styles for the navigation bar */
+.navbar {
+  background-color: #fff;
+                           /* Navbar background color */
+}
+.navbar-brand img {
+  max-height: 110px; /* Max height for the logo image */
+}
+.navbar-nav {
+  margin: 0 auto;
+   /* Centering the navbar items */
+}
+.nav-item {
+  padding: 0 10px; /* Space between each nav item */
+}
+.nav-link {
+  color: #333;
+  font-weight: bold; /* Nav links color */
+}
+.nav-link:hover {
+  color: #007bff; /* Nav links hover color */
+}
+.btn-signup,
+.btn-login {
+  margin-left: 10px; /* Space between sign-up/login buttons */
+}
+a.nav-link:focus{
+  color:red;
+
+}
+#button1{
+  text-decoration: none;
+  border: none;
+}
+#option1{
+  display: flex;
+   font-size: 20px;
+   background-color: rgb(32, 139, 139);
+   padding: 20px;
+}
+.bg-image{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT_TKOqW6r4M4sBAEfneKl10_jSKTk8AT1Nw&s);
+  background-size:cover;
+  height:500px;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+  padding-top: 100px;
+}
